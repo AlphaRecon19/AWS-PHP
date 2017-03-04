@@ -1,0 +1,26 @@
+{
+    "name": "alpharecon19/aws-php",
+    "authors": [
+        {
+            "name": "Chris Hilsdon",
+            "email": "chris@koolserve.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "aws/aws-sdk-php": "^3.23"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AWS\\": ["src/"]
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7"
+        }
+    }
+}
